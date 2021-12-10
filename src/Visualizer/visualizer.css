@@ -1,0 +1,55 @@
+.cool-button {
+  position: relative;
+  top: -45px;
+  left: 530px;
+  margin-left: 17px;
+}
+
+.text-info {
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  /* width: 20px; */
+  /* padding: 2rem; */
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.cool-text-bar {
+  background-color: #cc7788;
+  opacity: 0.8;
+  font-size: 2rem;
+  border-radius: 9px;
+  color: #fff;
+  width: auto;
+  padding: 2rem;
+  margin: 0px;
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.card-back {
+  top: 25px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+.card {
+  top: 118px;
+  left: 592px;
+  position: fixed;
+}
+
+.card-final-pos {
+  position: relative;
+  float: left;
+  /* top: 125px; */
+  /* margin-right: 10px;
+  margin-bottom: 135px;
+  left: 35px; */
+  transition: all 10s;
+}
