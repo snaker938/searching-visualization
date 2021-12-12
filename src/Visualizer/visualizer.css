@@ -1,8 +1,16 @@
 .cool-button {
   position: relative;
-  top: -45px;
-  left: 530px;
+  top: -42px;
+  left: 700px;
   margin-left: 17px;
+}
+
+.find {
+  position: relative;
+  top: -42px;
+  left: 300px;
+  margin-right: 25px;
+  margin-left: -17px;
 }
 
 .text-info {
@@ -39,17 +47,36 @@
 }
 
 .card {
-  top: 118px;
-  left: 592px;
+  /* top: 118px;
+  left: 592px; */
+  /* position: fixed;
+  top: 125px;
+  margin-right: 10px;
+  margin-bottom: 135px;
+  left: 35px; */
+  position: relative;
+  float: left;
+  top: 125px;
+  margin-right: 10px;
+  margin-bottom: 135px;
+  left: 35px;
+  transition: all 2s;
+}
+
+.card-to-find {
   position: fixed;
+  top: 30px;
+  width: 249px;
+  left: 20px;
+  margin: 0px;
 }
 
 .card-final-pos {
   position: relative;
   float: left;
-  /* top: 125px; */
-  /* margin-right: 10px;
+  top: 125px;
+  margin-right: 10px;
   margin-bottom: 135px;
-  left: 35px; */
-  transition: all 10s;
+  left: 35px;
+  transition: all 2s;
 }

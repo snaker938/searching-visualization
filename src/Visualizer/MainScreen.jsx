@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { displayCard, displayDeck } from "../Cards";
+import { startLinearSearch } from "./Visualizer";
 import "./visualizer.css";
 
 export default class MainScreen extends Component {
@@ -139,6 +140,24 @@ export default class MainScreen extends Component {
     return (
       <>
         <p className="cool-text-bar"></p>
+        <div className="card-to-find text-info">
+          <label for="cardToFind">Card to find:</label>
+          <input type="text" id="cardToFind" name="cardToFind"></input>
+        </div>
+        <button
+          className="find"
+          onClick={() => {
+            startLinearSearch(
+              this.state.cardsShown,
+              String(document.getElementById("cardToFind").value)
+            );
+          }}
+        >
+          Linear Search
+        </button>
+        <button className="find" onClick={() => {}}>
+          Binary Search
+        </button>
         <button
           className="cool-button"
           onClick={() => {
@@ -154,6 +173,9 @@ export default class MainScreen extends Component {
           }}
         >
           Remove Card
+        </button>
+        <button className="cool-button" onClick={() => {}}>
+          Linear Search
         </button>
         {deck}
         <div>{this.displayCardsShown()}</div>
