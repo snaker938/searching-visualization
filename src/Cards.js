@@ -35,4 +35,19 @@ function displayDeck() {
   );
 }
 
-export { displayCard, displayDeck };
+function displayCardToFindOnDeck(suit, num) {
+  let src = getSRC(suit, num);
+  return (
+    <img
+      className="card-back"
+      src={src}
+      alt={`card-to-find-${suit + num}`}
+      id={`card-to-find-${suit + num}`}
+      key={`card-to-find-${suit + num}`}
+      height={144}
+      width={96}
+    />
+  );
+}
+
+export { displayCard, displayDeck, displayCardToFindOnDeck };

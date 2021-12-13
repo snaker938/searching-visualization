@@ -1,8 +1,9 @@
 .cool-button {
   position: relative;
   top: -42px;
-  left: 700px;
+  left: 560px;
   margin-left: 17px;
+  transition: all 0.75s;
 }
 
 .find {
@@ -16,7 +17,8 @@
 .text-info {
   background-color: #c7365f;
   opacity: 0.8;
-  border-radius: 9px;
+  border-radius: 100px;
+  padding-bottom: 10px;
   color: #fff;
   /* width: 20px; */
   /* padding: 2rem; */
@@ -64,11 +66,19 @@
 }
 
 .card-to-find {
-  position: fixed;
-  top: 30px;
+  position: absolute;
+  top: 17px;
   width: 249px;
   left: 20px;
   margin: 0px;
+}
+
+.arrow {
+  position: absolute;
+  top: 540px;
+  /* left: 146px; */
+  left: 40px;
+  transition: all 0.4s;
 }
 
 .card-final-pos {
