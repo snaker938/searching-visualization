@@ -1,7 +1,7 @@
 .cool-button {
   position: relative;
   top: -42px;
-  left: 560px;
+  left: 320px;
   margin-left: 17px;
   transition: all 0.75s;
 }
@@ -48,23 +48,6 @@
   /* width: 50%; */
 }
 
-.card {
-  /* top: 118px;
-  left: 592px; */
-  /* position: fixed;
-  top: 125px;
-  margin-right: 10px;
-  margin-bottom: 135px;
-  left: 35px; */
-  position: relative;
-  float: left;
-  top: 125px;
-  margin-right: 10px;
-  margin-bottom: 135px;
-  left: 35px;
-  transition: all 2s;
-}
-
 .card-to-find {
   position: absolute;
   top: 17px;
@@ -75,18 +58,87 @@
 
 .arrow {
   position: absolute;
-  top: 540px;
-  /* left: 146px; */
-  left: 40px;
+  /* top: 540px;
+  left: 40px; */
+  transition: all 0.4s;
+}
+.binaryArrow {
+  position: absolute;
+  /* top: 540px;
+  left: 40px; */
   transition: all 0.4s;
 }
 
-.card-final-pos {
+.card {
   position: relative;
   float: left;
   top: 125px;
   margin-right: 10px;
-  margin-bottom: 135px;
+  margin-bottom: 175px;
   left: 35px;
   transition: all 2s;
+}
+
+.linearSearchText {
+  position: absolute;
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #fff;
+  /* width: 20px; */
+  /* padding: 2rem; */
+  /* word-wrap: break-word; */
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.binarySearchText {
+  position: absolute;
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #fff;
+  /* width: 20px; */
+  /* padding: 2rem; */
+  /* word-wrap: break-word; */
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.search-text-final {
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
+  /* margin-bottom: 30px; */
+  color: #fff;
+  /* width: 20px; */
+  /* padding: 2rem; */
+  top: 280px;
+  left: 110px;
+  text-align: center;
+  position: absolute;
+  transition: all 0.75s;
+}
+
+.search-text-final2 {
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
+  /* margin-bottom: 30px; */
+  color: #fff;
+  /* width: 20px; */
+  /* padding: 2rem; */
+  top: 325px;
+  left: 110px;
+  text-align: center;
+  position: absolute;
+  transition: all 0.75s;
 }
