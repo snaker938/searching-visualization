@@ -516,7 +516,7 @@ export default class MainScreen extends Component {
                 .style.removeProperty("left");
             }
           }
-        }, 1550 * i);
+        }, 1650 * i);
       }
     }
   }
@@ -581,7 +581,7 @@ export default class MainScreen extends Component {
 
             this.getBinarySearchMessage(i);
           }
-        }, 2000 * i);
+        }, 2500 * i);
       }
     }
   }
@@ -610,15 +610,14 @@ export default class MainScreen extends Component {
     } else {
       let cardString = this.convertCardIntoString(card);
       let cardToFind = this.convertCardToFindIntoString();
+      if (document.getElementById("arrow") !== null)
+        document.getElementById("arrow").style.display = "none";
 
       document.getElementById(
         "linearSearchMessage"
       ).textContent = `Linear Search ----- The current card: ${cardString}, is equal to the card being searched for: ${cardToFind}. The card has been found at position ${i}. It took ${
         i + 1
       } tries to get to this card!`;
-      if (document.getElementById("arrow") !== null)
-        document.getElementById("arrow").hidden = true;
-      document.getElementById("arrow").style.display = "none";
     }
   }
 
