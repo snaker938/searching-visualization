@@ -57,7 +57,10 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "src/icons/mac/icon.icns",
+        "name": "Searching Visualization"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",

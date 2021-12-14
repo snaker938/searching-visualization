@@ -713,6 +713,7 @@ export default class MainScreen extends Component {
     firstCardCoordsBinary = [];
     cardsShownInOrder = [];
     document.getElementById("linearSearchMessage").textContent = "";
+    document.getElementById("binarySearchMessage").textContent = "";
     document.getElementById("cardToFind").value = "";
 
     const deck = this.getWholeDeck();
